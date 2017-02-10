@@ -4,7 +4,7 @@
 var path = require('path');
 module.exports = {
     entry: {
-        index:'./src/main.js'
+        index:'./src/main.js',
     },
     //定义webpack输出的文件，我们在这里设置了让打包后生成的文件放在dist文件夹下的build.js文件中
     output: {

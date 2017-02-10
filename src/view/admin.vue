@@ -40,9 +40,6 @@
     import componentFooter from '../components/footer.vue';
     import componentRightAside from '../components/right-aside.vue';
 
-
-    import '../assets/js/app.js';
-
     export default {
         data:function () {
             return {

@@ -15,17 +15,27 @@ var routes = [
         children: [
             {
                 path: '',
-                component: index
+                component: index,
+                meta: {
+                    title: '开始 | AdminLTE 2'
+                },
             },
             {
                 path: '/order',
-                component: order
+                component: order,
+                meta: {
+                    title: '订单 | AdminLTE 2'
+                },
             }
         ]
     },
     {
         path: '/login',
-        component: login
+        component: login,
+        meta: {
+            title: 'login | AdminLTE 2'
+        },
+
     }
 
 ];
